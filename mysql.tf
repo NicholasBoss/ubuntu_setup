@@ -27,7 +27,7 @@ resource "aws_eip" "my_eip" {
 
 # Associate the Elastic IP with the EC2 instance
 resource "aws_instance" "my_instance_mysql" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-0b20a6f09484773af"
   instance_type = "t2.micro"
   key_name      = aws_key_pair.my_keypair.key_name
 
