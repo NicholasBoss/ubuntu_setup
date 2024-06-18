@@ -51,6 +51,7 @@ echo "alias vi='vim'" >> .bashrc
 echo "alias python='python3'" >> .bashrc
 echo "alias move='mv /home/student/Downloads/*.sql /home/student/Desktop/itm111grading/v1/tempgrades/'" >> .bashrc
 echo "alias check_temp='ls /home/student/Desktop/itm111grading/v1/tempgrades/'" >> .bashrc
+echo "alias grading='code /home/student/Desktop/itm111grading/'" >> .bashrc
 echo "" >> .bashrc
 
 # Create a new alias for the grading script
