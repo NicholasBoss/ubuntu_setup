@@ -10,4 +10,4 @@ tfenv install latest
 tfenv use latest
 # download the mysql.tf file
 echo "Downloading the mysql.tf file"
-curl -o ~/mysql.tf https://raw.githubusercontent.com/NicholasBoss/itm111grading/main/mysql.tf
+curl -o ~/mysql.tf https://raw.githubusercontent.com/NicholasBoss/ubuntu_setup/main/mysql.tf
