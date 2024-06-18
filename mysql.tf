@@ -1,4 +1,3 @@
-# Define the provider (e.g., AWS, GCP, Azure)
 provider "aws" {
   region = "us-west-2"
 }
