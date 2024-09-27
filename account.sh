@@ -39,6 +39,7 @@ pip install mysql-connector-python
 
 # Clone repositories
 echo "Cloning ITM111 Grading Repository"
+cd
 cd Desktop/
 git clone https://github.com/NicholasBoss/itm111grading
 cd
