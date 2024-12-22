@@ -34,7 +34,6 @@ export PATH=$PATH:/home/student/.local/bin
 
 # Install the necessary python packages
 echo "Installing python packages"
-pip install streamlit
 pip install mysql-connector-python
 
 # Clone repositories
@@ -50,19 +49,19 @@ echo "" >> .bashrc
 echo "# Personal Aliases" >> .bashrc
 echo "alias vi='vim'" >> .bashrc
 echo "alias python='python3'" >> .bashrc
-echo "alias move='mv /home/student/Downloads/*.sql /home/student/Desktop/itm111grading/v1/tempgrades/'" >> .bashrc
-echo "alias check_temp='ls /home/student/Desktop/itm111grading/v1/tempgrades/'" >> .bashrc
+echo "alias move='mv /home/student/Downloads/*.sql /home/student/Desktop/itm111grading/v3/tempgrades/'" >> .bashrc
+echo "alias check_temp='ls /home/student/Desktop/itm111grading/v3/tempgrades/'" >> .bashrc
 echo "alias grading='code /home/student/Desktop/itm111grading/'" >> .bashrc
 echo "" >> .bashrc
 
 # Create a new alias for the grading script
-echo "alias run6='python /home/student/Desktop/itm111grading/v1/week06hw_v1_check.py'" >> .bashrc
-echo "alias run7='python /home/student/Desktop/itm111grading/v1/week07hw_v1_check.py'" >> .bashrc
-echo "alias run8='python /home/student/Desktop/itm111grading/v1/week08hw_v1_check.py'" >> .bashrc
-echo "alias run9='python /home/student/Desktop/itm111grading/v1/week09hw_v1_check.py'" >> .bashrc
-echo "alias run10='python /home/student/Desktop/itm111grading/v1/week10hw_v1_check.py'" >> .bashrc
-echo "alias run11='python /home/student/Desktop/itm111grading/v1/week11hw_v1_check.py'" >> .bashrc
-echo "alias run12='python /home/student/Desktop/itm111grading/v1/week12hw_v1_check.py'" >> .bashrc
+echo "alias run6='python /home/student/Desktop/itm111grading/v3/week06hw_v3_check.py'" >> .bashrc
+echo "alias run7='python /home/student/Desktop/itm111grading/v3/week07hw_v3_check.py'" >> .bashrc
+echo "alias run8='python /home/student/Desktop/itm111grading/v3/week08hw_v3_check.py'" >> .bashrc
+echo "alias run9='python /home/student/Desktop/itm111grading/v3/week09hw_v3_check.py'" >> .bashrc
+echo "alias run10='python /home/student/Desktop/itm111grading/v3/week10hw_v3_check.py'" >> .bashrc
+echo "alias run11='python /home/student/Desktop/itm111grading/v3/week11hw_v3_check.py'" >> .bashrc
+echo "alias run12='python /home/student/Desktop/itm111grading/v3/week12hw_v3_check.py'" >> .bashrc
 
 # Source the .bashrc file
 source .bashrc
